@@ -25,14 +25,34 @@ main {
 }
 
 #container {
-    border: 2px solid #000;
-    width: 320px;
+    border: 2px dotted #000;
+    border-radius: 16px;
+    width: 380px;
     max-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5em 0;
+    padding: 1.5em 1.5em;
     gap: 1rem;
     margin-top: 3rem;
+}
+
+#quote-txt {
+    padding: 1em 1.5em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#quote-author {
+    padding-left: 60%;
+    font-size: 20px;
+}
+
+#quote-btn {
+    border: none;
+    font-size: 17px;
+    background-color: yellow;
+    padding: .5em;
+    border-radius: 20px;
 }
