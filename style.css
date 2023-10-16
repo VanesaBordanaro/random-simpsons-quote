@@ -45,7 +45,8 @@ main {
 }
 
 #quote-author {
-    padding-left: 60%;
+    padding-left: 30%;
+    padding-bottom: .5em;
     font-size: 20px;
 }
 
@@ -55,4 +56,5 @@ main {
     background-color: yellow;
     padding: .5em;
     border-radius: 20px;
+    cursor: pointer;
 }
